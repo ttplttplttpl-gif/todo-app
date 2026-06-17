@@ -14,7 +14,7 @@ const books = [
     title: "Nhà Giả Kim",
     author: "Paulo Coelho",
     price: 79000,
-    category: "vanhoc",
+    category: "kynang",
     image:
       "https://www.netabooks.vn/Data/Sites/1/Product/6476/nha-gia-kim-01.jpg",
     desc: "Một cuốn tiểu thuyết mang tính triết lý sâu sắc, theo chân hành trình của cậu bé chăn cừu Santiago đi tìm kiếm kho báu cuộc đời.",
@@ -52,14 +52,14 @@ const books = [
     title: "Thép Đã Tôi Thế Đấy",
     author: "Nikolai A.Ostrovsky",
     price: 105000,
-    category: "kynang",
+    category: "vanhoc",
     image:
       "https://cdn1.fahasa.com/media/catalog/product/9/7/9786049952012.jpg",
     desc: "Tiểu thuyết khắc họa hành trình từ một thiếu niên bướng bỉnh thành người chiến sĩ Hồng quân kiên cường, người đã vượt qua nghịch cảnh tàn khốc của chiến tranh và bệnh tật để cống hiến trọn vẹn cho lý tưởng cách mạng.",
   },
   {
     id: 7,
-    title: "Tâm Lý Học Tội Phạm – Khi Kẻ Yếu Trở Thành Kẻ Săn Mồi",
+    title: "Tâm Lý Học Tội Phạm - Khi Kẻ Yếu Trở Thành Kẻ Săn Mồi",
     author: "Ngưng Thị Thâm Uyên",
     price: 110000,
     category: "kynang",
@@ -76,6 +76,86 @@ const books = [
     image:
       "https://cdn1.fahasa.com/media/catalog/product/z/7/z7559362432815_58b7db0644c7ffc7e9378ada6274a2f4_2.jpg",
     desc: "Cuốn sách tái hiện chiến dịch phản gián vĩ đại cùng tên của lực lượng Công an Nhân dân Việt Nam.",
+  },
+  {
+    id: 9,
+    title: "Hồi Ức Quảng Trị",
+    author: "Nguyễn Thụy Kha",
+    price: 83000,
+    category: "vanhoc",
+    image:
+      "https://cdn1.fahasa.com/media/catalog/product/b/_/b_a-h_i-_c-qu_ng-tr_.jpg",
+    desc: "Cuốn sách đưa bạn đọc trở về với mùa hè đỏ lửa năm 1972, khi Thành Cổ Quảng Trị trở thành biểu tượng của sự kiên cường và hy sinh.",
+  },
+  {
+    id: 10,
+    title: "Bản Án Chế Độ Thực Dân Pháp",
+    author: "Nguyễn Ái Quốc",
+    price: 60000,
+    category: "vanhoc",
+    image:
+      "https://cdn1.fahasa.com/media/catalog/product/8/9/8935279172894.jpg",
+    desc: "Bản án chế độ thực dân Pháp là một tác phẩm chính luận sâu sắc của Nguyễn Ái Quốc, viết bằng tiếng Pháp và ra mắt lần đầu vào năm 1925 tại Paris, trong bối cảnh cuộc đấu tranh chống lại chế độ thực dân Pháp đang diễn ra mạnh mẽ ở các thuộc địa.",
+  },
+  {
+    id: 11,
+    title: "Thư Vào Nam",
+    author: "Lê Duẩn",
+    price: 89000,
+    category: "vanhoc",
+    image:
+      "https://down-vn.img.susercontent.com/file/vn-11134275-7ra0g-m8d5ljbsfdj8e8@resize_w900_nl.webp",
+    desc: "Cuốn sách Thư vào Nam của cố Tổng Bí thư Lê Duẩn tập hợp các bức thư và bức điện quan trọng gửi Xứ ủy Nam Bộ, Trung ương Cục và các lãnh đạo chiến trường miền Nam trong giai đoạn kháng chiến chống Mỹ (1961 - 1975).",
+  },
+  {
+    id: 12,
+    title: "Tổng Hành Dinh Trong Mùa Xuân Toàn Thắng - Hồi Ức",
+    author: "Đại Tướng Võ Nguyên Giáp",
+    price: 85000,
+    category: "vanhoc",
+    image:
+      "https://cdn1.fahasa.com/media/catalog/product/8/9/8935279172863.jpg",
+    desc: "Cuốn hồi ức Tổng hành dinh trong mùa Xuân toàn thắng gồm 10 chương, trong đó Đại tướng dành chín chương viết về các sự kiện lịch sử lớn của dân tộc và chương cuối cùng trình bày những điều tâm huyết, đúc kết cuộc đời cầm quân quang vinh của mình qua những năm tháng khốc liệt của chiến tranh. Cuốn sách giúp độc giả thấy rõ bản lĩnh và trí tuệ Việt Nam ở những thời điểm lịch sử quyết định: nhạy bén, sáng tạo, quyết đoán, nắm bắt thời cơ và nỗ lực cao độ nhằm quét sạch quân thù.",
+  },
+  {
+    id: 13,
+    title: "Thế Giới Còn Đổi Thay, Nhưng Tư Tưởng Hồ Chí Minh Sống Mãi",
+    author: "Đại Tướng Võ Nguyên Giáp",
+    price: 155000,
+    category: "vanhoc",
+    image:
+      "https://down-vn.img.susercontent.com/file/sg-11134201-821el-mgorqqssfyfgbe",
+    desc: "Cuốn sách Thế giới còn đổi thay, nhưng tư tưởng Hồ Chí Minh sống mãi tập hợp một số bài nghiên cứu đã được công bố của Đại tướng Võ Nguyên Giáp về tư tưởng Hồ Chí Minh, một lần nữa khẳng định giá trị lớn lao của tư tưởng Hồ Chí Minh đối với toàn nhân loại, trở thành nền tảng tư tưởng, kim chỉ nam cho hành động của toàn Đảng, toàn quân và toàn dân ta trong mọi thời kỳ cách mạng.",
+  },
+  {
+    id: 14,
+    title: "Hoàng Tử Bé",
+    author: "Antoine de Saint-Exupéry",
+    price: 74000,
+    category: "thieunhi",
+    image:
+      "https://salt.tikicdn.com/cache/750x750/ts/product/5c/e7/68/26838e18d7f96d562d828980520019d2.jpg.webp",
+    desc: "Một câu chuyện ngụ ngôn kể về một phi công bị rơi máy bay giữa sa mạc. Tại đây, anh gặp gỡ một cậu bé đến từ tiểu hành tinh B612. Thông qua các chuyến du hành và trò chuyện, cuốn sách truyền tải những bài học triết lý sâu sắc về tình yêu, trách nhiệm và ý nghĩa cuộc sống.",
+  },
+  {
+    id: 15,
+    title: "Peter Pan",
+    author: "Sir James Matthew Barrie",
+    price: 94000,
+    category: "thieunhi",
+    image:
+      "https://cdn.hstatic.net/products/200001055148/peter-pan-song-ngu_dcb7f871e8f04b819ee91dd1c03f3ef4.jpg",
+    desc: "Cuốn sách kể về cậu bé tinh nghịch có khả năng bay lượn và không bao giờ chịu lớn. Cậu sống tại vùng đất thần tiên Neverland cùng các nàng tiên, người thổ dân và nhóm Cậu bé đi lạc. Tại đây, cậu trải qua những cuộc phiêu lưu ly kỳ chống lại Thuyền trưởng Hook hung ác.",
+  },
+  {
+    id: 16,
+    title: "Thỏ Bảy Màu Và Những Người Nghĩ Nó Là Bạn",
+    author: "Huỳnh Thái Ngọc",
+    price: 79000,
+    category: "thieunhi",
+    image:
+      "https://cdn1.fahasa.com/media/catalog/product/9/7/9786043561272_1_1.jpg",
+    desc: "Thỏ Bảy Màu là fanpage sở hữu hơn 2,6tr lượt thích trên mạng xã hội. Với hình tượng nhân vật thú vị cùng phong cách sáng tạo độc đáo, Thỏ bảy màu vẫn luôn là thu hút được số lượng lớn người quan tâm thể hiện qua nhiều bài viết với hàng chục nghìn lượt like và share.",
   },
 ];
 
