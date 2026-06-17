@@ -5,7 +5,7 @@ const books = [{
         author: "Dale Carnegie",
         price: 86000,
         category: "kynang",
-        image: "https://bizweb.dktcdn.net/100/197/269/products/dac-nhan-tam.jpg?v=1531102914563",
+        image: "https://cdn1.fahasa.com/media/catalog/product/d/n/dntttttuntitled_1.jpg",
         desc: "Đắc nhân tâm là cuốn sách đưa ra các lời khuyên về cách thức giao tiếp và ứng xử với con người trong cuộc sống hàng ngày cực kỳ giá trị.",
     },
     {
@@ -14,7 +14,7 @@ const books = [{
         author: "Paulo Coelho",
         price: 79000,
         category: "vanhoc",
-        image: "https://bizweb.dktcdn.net/100/197/269/products/nha-gia-kim.jpg?v=1526462712330",
+        image: "https://upload.wikimedia.org/wikipedia/vi/9/9c/Nh%C3%A0_gi%E1%BA%A3_kim_%28s%C3%A1ch%29.jpg",
         desc: "Một cuốn tiểu thuyết mang tính triết lý sâu sắc, theo chân hành trình của cậu bé chăn cừu Santiago đi tìm kiếm kho báu cuộc đời.",
     },
     {
@@ -23,7 +23,7 @@ const books = [{
         author: "Robert T. Kiyosaki",
         price: 95000,
         category: "kinhte",
-        image: "https://bizweb.dktcdn.net/100/197/269/products/day-con-lam-giau-tap-1.jpg?v=1527236521740",
+        image: "https://media.loveitopcdn.com/1203/sach-cha-giau-cha-ngheo.jpg",
         desc: "Cuốn sách kinh điển dạy tư duy về tài chính, quản lý tiền bạc và cách làm cho tiền bạc làm việc cho chính bạn một cách thông minh.",
     },
     {
@@ -32,7 +32,7 @@ const books = [{
         author: "Nguyễn Nhật Ánh",
         price: 125000,
         category: "thieunhi",
-        image: "https://nhasachphuongnam.com/images/detailed/175/kinh-van-hoa-bo-3-tap-bia-mem-tai-ban-2022.jpg",
+        image: "http://thdantruong.nghixuan.edu.vn/upload/59064/fck/hoanglyxd/kinh-van-hoa-tap-1-ki-niem-65-nam-nxb-kim-dong-bia-cung.jpg",
         desc: "Bộ truyện gắn liền với tuổi thơ của nhiều thế hệ học sinh Việt Nam với những câu chuyện học đường hài hước, kịch tính từ bộ ba Quý ròm, Tiểu Long, Hạnh.",
     },
     {
@@ -41,7 +41,7 @@ const books = [{
         author: "T. Harv Eker",
         price: 98000,
         category: "kinhte",
-        image: "https://bizweb.dktcdn.net/100/197/269/products/bi-mat-tu-duy-trieu-phu.jpg?v=1526461947217",
+        image: "https://cdn1.fahasa.com/media/catalog/product/i/m/image_188995_1_1.jpg",
         desc: "Cuốn sách tiết lộ những bí mật tại sao một số người lại đạt được những thành công rực rỡ, trong khi số khác lại chật vật qua ngày.",
     },
 ];
